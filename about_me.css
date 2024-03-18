@@ -13,6 +13,7 @@ body {
   display: flex;
   justify-content: space-around;
   line-height: 70px;
+  position: fixed;
 }
 .nav h1 a {
   color: #d4d2d5;
@@ -38,10 +39,14 @@ body {
   background-color: #1c2541;
   width: 20%;
   height: 100vh;
+  position: fixed;
+  margin-top: 70px;
 }
 .content {
   height: auto;
   width: 80%;
+  margin-top: 70px;
+  margin-left: 20%;
 }
 .content_h1 {
   background-color: #d4d2d5;
@@ -55,7 +60,7 @@ body {
   line-height: 60px;
   box-shadow: 10px 10px 5px #777777;
 }
-.content_p{
+.content_p {
   background-color: #d4d2d5;
   border-radius: 10px;
   width: 500px;
@@ -68,7 +73,7 @@ body {
   box-shadow: 10px 10px 5px #777777;
   padding: 5px;
 }
-.content_p p::first-line{
+.content_p p::first-line {
   font-weight: bolder;
   font-size: larger;
 }

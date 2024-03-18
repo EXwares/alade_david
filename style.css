@@ -13,6 +13,7 @@ body {
   display: flex;
   justify-content: space-around;
   line-height: 70px;
+  position: fixed;
 }
 .nav h1 a {
   color: #d4d2d5;
@@ -38,10 +39,14 @@ body {
   background-color: #1c2541;
   width: 20%;
   height: 100vh;
+  position: fixed;
+  margin-top: 70px;
 }
 .content {
   height: auto;
   width: 80%;
+  margin-top: 70px;
+  margin-left: 20%;
 }
 .content_h1 {
   background-color: #d4d2d5;
