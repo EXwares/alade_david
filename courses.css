@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100vh;
+}
+.nav {
+  background-color: #0b132b;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  line-height: 70px;
+  position: fixed;
+}
+.nav h1 a {
+  color: #d4d2d5;
+  text-decoration: none;
+}
+.nav h2 a {
+  color: #d4d2d5;
+  text-decoration: none;
+}
+.nav h1 a:hover {
+  color: black;
+}
+.nav h2 a:hover {
+  color: black;
+}
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+.aside {
+  margin-top: 70px;
+  float: left;
+  background-color: #1c2541;
+  width: 20%;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+}
+.content {
+  height: auto;
+  width: 80%;
+  margin-top: 70px;
+  margin-left: 20%;
+}
+.content_h1 {
+  background-color: #d4d2d5;
+  border-radius: 10px;
+  width: 500px;
+  height: 60px;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 60px;
+  box-shadow: 10px 10px 5px #777777;
+}
+.content_h2 {
+  background-color: #d4d2d5;
+  border-radius: 10px;
+  width: 300px;
+  height: 40px;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 40px;
+  box-shadow: 10px 10px 5px #777777;
+}
+.table_div {
+  height: auto;
+  width: 700px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.table_div table {
+  width: 500px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.table_div table tbody .even {
+  background-color: #777777;
+}
+.table_div table tbody tr td {
+  text-align: center;
+}
+.title {
+  text-align: center;
+}
+.units {
+  text-align: center;
+}
+.foot {
+  font-weight: bolder;
+}
+.sidebar_img {
+  width: 200px;
+  height: 200px;
+  border: 5px #d4d2d5;
+  border-style: ridge;
+  border-radius: 200px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img3_1 {
+  border-radius: 50%;
+}
+.menu {
+  margin-top: 30px;
+  background-color: #3a506b;
+  height: 30px;
+  width: 100%;
+  border-style: ridge;
+  border-top: 5px;
+  border-bottom: 5px;
+  border-color: #d4d2d5;
+  text-align: center;
+}
+.menu h3 a {
+  text-decoration: none;
+  color: white;
+}
+.menu:hover {
+  background-color: #777777;
+}
+.aside .courses {
+  background-color: #777777;
+}
